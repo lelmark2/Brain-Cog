@@ -49,8 +49,6 @@ class BAESNN(BrainArea):
     """
 
     def __init__(self,):
-        """
-        """
         super().__init__()
 
         self.node = [IFNode() for i in range(5)]
